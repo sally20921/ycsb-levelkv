@@ -1,4 +1,4 @@
-# kvrangedb YCSB Binding
+# LevelKV YCSB Binding
 
 This repository provide leveldb YCSB binding (Binary Only)
 
@@ -18,11 +18,4 @@ Modify leveldb_config.json.
   ./bin/ycsb load leveldb -s -P workloads/test_scan # load data
   ./bin/ycsb run leveldb -s -P workloads/test_scan # run queries
 ```
-
-# TODO
-
-Complete the leveldb code (with different configurations)
-
-Run script for all the test
-
 
